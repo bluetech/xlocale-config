@@ -1,4 +1,4 @@
-SUBDIRS=nls
+SUBDIRS=nls specs
 
 ACLOCAL_AMFLAGS = -I m4
 

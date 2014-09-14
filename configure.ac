@@ -15,6 +15,11 @@ XORG_MACROS_VERSION(1.15)
 XORG_RELEASE_VERSION
 XORG_CHANGELOG
 XORG_INSTALL
+XORG_ENABLE_SPECS
+XORG_WITH_XMLTO(0.0.22)
+XORG_WITH_FOP([],[no])
+XORG_WITH_XSLTPROC
+XORG_CHECK_SGML_DOCTOOLS(1.10)
 XORG_PROG_RAWCPP
 XORG_WITH_PERL
 
@@ -50,5 +55,9 @@ locales="\
 AC_SUBST(locales)
 
 AC_CONFIG_FILES([Makefile
-		nls/Makefile])
+		nls/Makefile
+		specs/Makefile
+		specs/i18n/Makefile
+		specs/i18n/compose/Makefile
+		specs/i18n/localedb/Makefile])
 AC_OUTPUT
