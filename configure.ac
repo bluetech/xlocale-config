@@ -59,5 +59,6 @@ AC_CONFIG_FILES([Makefile
 		specs/Makefile
 		specs/i18n/Makefile
 		specs/i18n/compose/Makefile
-		specs/i18n/localedb/Makefile])
+		specs/i18n/localedb/Makefile
+		xlocale-config.pc])
 AC_OUTPUT

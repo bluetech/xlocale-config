@@ -1,0 +1,8 @@
+prefix=@prefix@
+datarootdir=@datarootdir@
+datadir=@datadir@
+xlocaledatadir=@X11_LOCALEDATADIR@
+
+Name: xlocale-config
+Description: X locale configuration data
+Version: @VERSION@
