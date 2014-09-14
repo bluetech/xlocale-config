@@ -1,0 +1,31 @@
+                    X Locale Configuration Data
+
+This module contains locale configuration and data files for the X Window
+System. Primarily, it provides per-locale descriptors and Compose files.
+
+The data in this module used to be distributed as part of libX11, and was
+later split to its own repository.
+
+
+All questions regarding this software should be directed at the
+Xorg mailing list:
+
+        http://lists.freedesktop.org/mailman/listinfo/xorg
+
+Please submit bug reports to the Xorg bugzilla:
+
+        https://bugs.freedesktop.org/enter_bug.cgi?product=xorg
+
+The master development code repository can be found at:
+
+        git://anongit.freedesktop.org/git/xorg/data/xlocale-config
+
+        http://cgit.freedesktop.org/xorg/data/xlocale-config
+
+For patch submission instructions, see:
+
+        http://www.x.org/wiki/Development/Documentation/SubmittingPatches
+
+For more information on the git code manager, see:
+
+        http://wiki.x.org/wiki/GitPage
